@@ -8,8 +8,8 @@ logger('aloitetaan ohjelma')
 
 x = int(input('luku1: '))
 y = int(input('luku2: '))
-print(f'{x} + {y} = {summa(x, y)}') # muutos masterissa
-print(f'{x} - {y} = {erotus(x, y)}') # muutos masterissa
+print(f'Lukujen {x} ja {y} summa on {summa(x, y)}') # muutos bugikorjaus-branchissa
+print(f'Lukujen {x} ja {y} erotus on {erotus(x, y)}') # muutos bugikorjaus-branchissa
 
 logger('lopetetaan ohjelma')
 print('goodbye!')
