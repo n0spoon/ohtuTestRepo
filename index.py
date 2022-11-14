@@ -4,7 +4,7 @@ from logger import logger
 from summa import summa
 from erotus import erotus
 
-logger('aloitetaan')
+logger('aloitetaan') # muutos masterissa
 
 x = int(input('luku1: '))
 y = int(input('luku2: '))
